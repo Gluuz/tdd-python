@@ -17,4 +17,4 @@ for bid in auction.bids:
 valuer = Valuer()
 valuer.evaluate(auction)
 
-print(f'The lowest bid was {valuer} and the biggest bid was {valuer.biggest_bid}')
+print(f'The lowest bid was {valuer} and the highest bid was {valuer.highest_bid_expected}')
